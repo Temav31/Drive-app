@@ -7,9 +7,9 @@
   pointer-events: none;
 }
 
-.page{
+/* .page{
 	width: 400px;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
