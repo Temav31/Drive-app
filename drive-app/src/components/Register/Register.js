@@ -8,7 +8,7 @@ import {
 	standartEmail,
 	messageName,
 	messageEmail
-} from "../utils/constant";
+} from "../../utils/constant";
 
 const Register = ({ isRegister, block }) => {
 	// данные

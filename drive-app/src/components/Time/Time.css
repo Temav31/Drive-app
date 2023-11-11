@@ -1,0 +1,60 @@
+.time {
+	padding: 80px 14px 0;
+}
+
+.time__container-last {
+	padding-bottom: 40px;
+}
+
+.time__container-last_text {
+	padding: 10px 0;
+	color: white;
+	text-align: center;
+	background-color: #6e6666;
+	border-radius: 10px;
+	margin: 0;
+}
+
+/* #034ea2 */
+.time__number {
+	padding-top: 6px;
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	gap: 10px;
+	margin: 0;
+}
+
+.time__container-last_number {
+	border-radius: 10px;
+	background-color: #034ea2;
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	margin: 0;
+}
+
+.time__container-slow {
+	padding-bottom: 40px;
+}
+
+.time__container-slow_text {
+	border-radius: 10px;
+	background-color: #fa253e;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0;
+}
+
+.time__container-slow_number {
+	border-radius: 10px;
+	background-color: #034ea2;
+	color: white;
+	text-align: center;
+	padding: 10px 0;
+	margin: 0;
+	margin-top: 6px;
+}
+.time__container-last:last-child{
+	padding-bottom: 0;
+}

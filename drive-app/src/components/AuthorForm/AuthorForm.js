@@ -3,7 +3,7 @@ import "./AuthorForm.css";
 import { Link } from "react-router-dom";
 // 
 // import AuthorForm from "../AuthorForm/AuthorForm"
-import Logo from "../images/logoIgis.svg";
+import Logo from "../../images/logoIgis.svg";
 // import Logo from "../../images/logo.png";
 
 import React from "react";

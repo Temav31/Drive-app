@@ -11,6 +11,9 @@ import './App.css';
 // импорт страниц
 import Login from "../Login/Login"
 import Register from "../Register/Register"
+import Main from "../Main/Main"
+import Navigator from "../Navigator/Navigator"
+
 
 function App() {
 	// регистрация
@@ -27,18 +30,34 @@ function App() {
 				<Route
 					path="/signin"
 					// element={authoriz ? <Navigate to="/" /> : <Login isLogin={handleLogin} block={formBlock} />}
-					element={<Login isLogin={handleLogin} />}
+					element={
+						<Login
+							isLogin={handleLogin}
+						/>
+					}
 				/>
 				<Route
 					path="/signup"
 					// element={authoriz ? <Navigate to="/" /> : <Register isRegister={handleRegister} block={formBlock} />}
-					element={<Register isRegister={handleRegister} />}
+					element={
+						<Register
+							isRegister={handleRegister}
+						/>
+					}
 				/>
-
 				<Route
 					path="/"
+					element={<Main
+						isLogin={true}
+					/>}
+				/>
+				<Route
+					path="/navigatore"
+					// element={authoriz ? <Navigate to="/" /> : <Register isRegister={handleRegister} block={formBlock} />}
 					element={
-						<dev>Начальная страница</dev>
+						<Navigator
+							isRegister={handleRegister}
+						/>
 					}
 				/>
 			</Routes>

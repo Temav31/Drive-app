@@ -11,8 +11,8 @@ import React, { useEffect, useState } from "react";
 // 	messageEmail
 // } from "../../utils/constant";
 // иконки
-import emailLogo from "../images/email.svg"
-import passwordLogo from "../images/password.svg"
+import emailLogo from "../../images/email.svg"
+import passwordLogo from "../../images/password.svg"
 
 const Login = ({ isLogin }) => {
 	// валидация и ошибки
