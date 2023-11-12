@@ -12,9 +12,8 @@
 }
 
 .header__link {
-	height: 38px;
-	width: 38px;
-	/* border: none; */
+	width: 68px;
+    height: 66px;
 }
 
 .header__link:hover {
@@ -23,6 +22,7 @@
 
 .header__image {
 	object-fit: cover;
+
 }
 
 .header__sign-up {
@@ -38,14 +38,14 @@
 
 .header__sign-in {
 	color: white;
-	font-size: 10px;
+	font-size: 13px;
 	font-style: normal;
 	font-weight: 500;
 	line-height: 16px;
 	text-decoration: none;
 	background-color: #da7b07;
 	border-radius: 3px;
-	padding: 5px 12px;
+	padding: 15px 25px;
 }
 
 /* на средний размер */
@@ -59,10 +59,10 @@
 		padding-right: 30px;
 	}
 
-	.header__sign-in {
+	/* .header__sign-in {
 		font-size: 12px;
 		padding: 8px 20px;
-	}
+	} */
 }
 
 /* на максимальный размер */

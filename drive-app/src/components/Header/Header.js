@@ -8,7 +8,6 @@ import Logo from "../../images/logoIgis.svg";
 import Menu from "../Menu/Menu";
 const Header = (props) => {
 	const { isLogin } = props;
-	// const value = true;
 	// место
 	const location = useLocation();
 	return (
@@ -29,7 +28,6 @@ const Header = (props) => {
 				</>
 			) : (
 				<>
-					{/* <Navigation /> */}
 					<Menu />
 				</>
 			)}

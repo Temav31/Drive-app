@@ -50,7 +50,7 @@
 }
 
 .menu__container {
-	padding: 145px 0 444px;
+	padding: 145px 0 350px;
 	margin: 0;
 	display: flex;
 	flex-direction: column;
@@ -98,6 +98,17 @@
 	height: 16px;
 }
 
+.menu__link-exite {
+	color: #EE3465;
+	text-align: center;
+	font-size: 14px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+	padding-top: 15px;
+}
+
 /* на средний размер */
 @media (min-width: 768px) {
 	.menu__on {
@@ -122,7 +133,7 @@
 	}
 
 	.menu__container {
-		padding: 160px 0 621px;
+		padding: 160px 0 550px;
 	}
 
 	.menu__link {
@@ -143,7 +154,7 @@
 @media (min-width: 1280px) {
 
 	.menu__container {
-		padding: 100px 0 200px;
+		padding: 100px 0 150px;
 		margin: 0;
 		display: flex;
 		flex-direction: column;

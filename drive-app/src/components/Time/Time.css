@@ -15,7 +15,6 @@
 	margin: 0;
 }
 
-/* #034ea2 */
 .time__number {
 	padding-top: 6px;
 	display: grid;
@@ -55,6 +54,19 @@
 	margin: 0;
 	margin-top: 6px;
 }
-.time__container-last:last-child{
+
+.time__container-last:last-child {
 	padding-bottom: 0;
 }
+
+/* на средний размер */
+@media (min-width: 768px) {
+	.time {
+		padding: 50px 70px 60px;
+	}
+}
+
+/* 
+@media (min-width: 1280px) {
+
+} */

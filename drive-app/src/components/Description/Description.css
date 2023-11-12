@@ -1,0 +1,14 @@
+.time{
+	padding: 80px 14px 0;
+}
+
+
+
+
+
+/* на средний размер */
+@media (min-width: 768px) {
+	.time {
+		padding: 50px 70px 60px;
+	}
+}

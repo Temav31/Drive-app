@@ -1,27 +1,24 @@
 import React from "react";
-// импорт стилей
-// import "./Main.css";
-// импорт блоков
 
 // импорт базовых
 import Header from "../Header/Header";
 import Footer from "../Footer/Footer";
-import Time from "../Time/Time";
+import Description from "../Description/Description";
 
-const Navigator = (props) => {
+const Info = (props) => {
 	const { isLogin } = props;
 	return (
 		<>
 			<Header
-				isLogin={true}
+				isLogin={isLogin}
 			/>
 			{/* Основной бллок */}
 			<main>
-				<Time />
+				<Description />
 			</main>
 			{/* Конец основного блока */}
 			<Footer />
 		</>
 	);
 };
-export default Navigator;
+export default Info;
